@@ -2,9 +2,10 @@
   "name": "express-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
-    "test": "jest",
+    "dev": "NODE_ENV=development npx tsx app.ts",
+    "test": "NODE_ENV=test jest",
     "lint": "eslint ."
   },
   "author": "",
